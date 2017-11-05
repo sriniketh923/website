@@ -1,10 +1,68 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Suggestions</title>
-</head>
-
-<body>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width = device-width, initial-scale = 1">
+		<meta name="author" content="Sriniketh Varma Dasarraju">
+		<meta name="Description" content="Website for Outdoor Adenture Club for University at Buffalo">
+		<meta name="Keywords" content="UBOAC, oboac, University at Buffalo Outdoor Adventure Club, Adventure Club">
+		<link rel="stylesheet" href="css/suggestions.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/bootstrap.js"></script>
+		<script src="js/jquery.js"></script>
+		<title>Outdoor Adventure Clue</title>
+	</head>
+	<body>
+		<header>
+			<div class="container1">
+				<div id="branding">
+					<h1>Outdoor Adventure Club</h1>
+				</div>
+				<nav>
+					<ul>
+						<li class="current"><a href="index.html">Home</a></li>
+						<li class="current"><a href="#">About<span>&#9660</span></a>
+						<ul>
+							<li><a href="#">E-Board</a></li>
+						</ul>
+						<ul>
+							<li><a href="constitution.html">Constitution</a></li>
+						</ul>
+					  </li>
+						<li class="current"><a href="#">Gallery</a></li>
+						<li class="current"><a href="#">Suggestions</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section id="showSuggestions">
+			<div class="container1">
+				<h1>Welcome to the Suggestions Page</h1>
+				<p>"Here you can suggest any trips that you would like OAC to organise. If it's within a reasonable budget OAC will make it happen."</p>
+			</div>
+			<div class="container">
+				<form>
+					<div class="form-group">
+						<label for="user">Name*: </label><br>
+						<input id="user" type="text" placeholder="Type your name" required>
+					</div>
+					<div class="form-group">
+						<label for="email">Email ID*:</label><br>
+						<input id="email" type="email" placeholder="Enter your e-mail ID" required>
+					</div>
+					<div class="form-group">
+						<label for="suggestions">Suggestions*: </label><br>
+						<textarea class="form-control" style="resize: none" required></textarea>
+					</div>
+					<div class="col-md-2">
+						<button class="btn btn-block btn-danger">Submit</button>
+					</div>
+				</form>
+			</div>
+		</section>
+		<footer>
+			<p>Sriniketh Varma, Copyright &copy; 2017</p>
+		</footer>
+	</body>
 </html>

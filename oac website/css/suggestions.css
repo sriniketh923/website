@@ -8,12 +8,6 @@ body {
 	background-color: lightgrey;
 }
 
-.container {
-	width: 80%;
-	margin: auto;
-	overflow: hidden;
-}
-
 .container1 {
 	width: 80%;
 	margin: auto;
@@ -61,26 +55,6 @@ header nav {
 	margin-top: 13px;
 }
 
-.container ul li ul {
-	display: none;
-}
-
-.container nav ul li {
-	list-style: none;
-	width: 120px;
-	position: relative;
-	text-align: center;
-}
-
-.container nav ul li a {
-	display: inline-block;
-	text-decoration: none;
-}
-
-.container ul li:hover ul {
-	display: block;
-}
-
 .container1 ul li ul {
 	display: none;
 }
@@ -101,6 +75,11 @@ header nav {
 	display: block;
 }
 
+.container1 p{
+	font-size: 18px;
+	margin-bottom: 100px;
+}
+
 header .highlight, header .current a {
 	color: yellowgreen;
 	font-weight: bold;
@@ -111,51 +90,6 @@ header a:hover {
 	font-weight: bold;
 }
 
-#showcase {
-	min-height: 300px;
-	background: url(../images/background-image.jpg) no-repeat -100px;
-	text-align: center;
-	color: mediumvioletred;
-}
-
-#showcase h1 {
-	margin-top: 80px;
-	font-size: 55px;
-	margin-bottom: 10px;
-}
-
-.container p{
-	font-size: 15px;
-}
-
-.container .fontsize {
-	font-size: 20px;
-	color: cornflowerblue;
-}
-
-.container2 h1{
-	margin-top: 1px;
-	margin-bottom: 1px;
-}
-.container2 {
-	width: 30%;
-	margin: auto;
-	overflow: hidden;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-.container2 p{
-	margin-top: 5px;
-	font-size: 18px;
-}
-
-#aboutoac {
-	padding: 15px;
-	color: white;
-	background: #35424a;
-}
-
 footer {
 	padding: 10px;
 	color: white;
@@ -164,22 +98,11 @@ footer {
 	text-align: center;
 }
 
-#constitution {
-	min-height: 800px;
-	text-align: center;
-	background-image:url("../images/constitution-background.jpg");
-    background-repeat:no-repeat;
-    background-position:center;
-	color: black;
-	font-size: 30px;
-}
-
 #showSuggestions {
 	min-height: 900px;
-	text-align: center;
 	background-image:url("../images/suggestions-background.jpeg");
     background-repeat:no-repeat;
     background-position:center;
-	color: black;
-	font-size: 30px;
+	color: tomato;
+	font-size: 20px;
 }
